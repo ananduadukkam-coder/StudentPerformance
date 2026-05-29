@@ -1,0 +1,14 @@
+Executive Summary
+
+This project focuses on predicting student math performance using machine learning techniques based on factors such as study hours, attendance, sleep hours, and previous academic scores. A dataset containing 30 student records was analyzed and processed using Python libraries including Pandas, Seaborn, Matplotlib, and Scikit-learn.
+
+Exploratory Data Analysis (EDA) was conducted to understand the relationships between variables and identify patterns affecting academic performance. Visualizations such as histograms, heatmaps, and scatter plots revealed strong positive correlations between study habits, attendance, previous scores, and final math scores.
+
+A Linear Regression model was developed to predict math scores. The dataset was divided into training and testing sets, and the model achieved highly accurate results with:
+
+Mean Absolute Error (MAE): approximately 0.57
+R² Score: approximately 0.997
+
+These results indicate that the model can effectively predict student performance with very high accuracy. The trained model was also saved using Joblib for future use and deployment.
+
+Overall, the project demonstrates how machine learning can support educational analytics by helping identify the key factors that influence student success and enabling performance prediction for better academic planning and intervention.
